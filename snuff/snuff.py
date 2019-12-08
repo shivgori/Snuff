@@ -46,7 +46,7 @@ def banner():
 
 def ver_check():
 	print(G + '[+]' + C + ' Checking for Updates.....', end='')
-	#ver_url = 'https://raw.githubusercontent.com/thewhiteh4t/seeker/master/version.txt'
+	#ver_url = 'https://github.com/shivgori/Snuff/blob/master/snuff/version.txt'
 	ver_rqst = requests.get(ver_url)
 	ver_sc = ver_rqst.status_code
 	if ver_sc == 200:
