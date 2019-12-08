@@ -85,6 +85,7 @@ img
   margin: auto;
   height: 250px;
   width: 250px;
+  ackground-image: url(worldmap.jpg)
   background-image: url(https://raw.githubusercontent.com/shivgori/Snuff/master/snuff/template/aroundyou/css/worldmap.jpg);
   border-radius: 50%;
   background-size: 700px;
